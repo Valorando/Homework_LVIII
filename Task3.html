@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+    <link rel="stylesheet" type="text/css" href="Styles_for_task3.css">
+</head>
+<body>
+    <header>
+        <span id="text1">Flights - Search List</span> <span id="text2">Home/Flights Search List</span>
+    </header>
+
+    <form id="criteria">
+        <input type="radio" checked >One Way <input type="radio">Round Trip<br><br>
+        <input id="style1" type="text" value="From"> <input id="style1" type="text" value="To"> <input id="style1" type="text" value="Depart Date"> 
+        <input id="style1" type="text" value="Return Date"> <select id="select1"><option>Economy Class</option></select>
+        <input id="style2" type="submit" value="Search">
+    </form>
+    <form id="filter">
+        <article id="article_filter">
+            <h2>Filter</h2>
+            <p id="style3">No, of stops</p>
+            <input type="checkbox">Non Stop<br>
+            <input type="checkbox">1 Stop<br>
+            <input type="checkbox">2+ Stops
+            <p id="style3">Price</p>
+            Min:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max:<br>
+            <input id="text3" type="text" value="0"> $ - <input id="text3" type="text" value="1000"> $
+            <p id="style3">Airlines</p>
+            <input type="checkbox">Asia Airlines<br>
+            <input type="checkbox">American Airlines<br>
+            <input type="checkbox">Air Canada<br>
+            <input type="checkbox">Air India<br>
+            <input type="checkbox">Jet Airways<br>
+            <input type="checkbox">Spicejet<br>
+            <input type="checkbox">IndiGo<br>
+            <input type="checkbox">Multiple Airlines
+        </article>
+    </form>
+    <form id="flights">
+        <article>
+            <br>
+            <h2 id="flights_header">Dehli to Sydney</h2>
+            <br>
+            <table>
+                <tr><th>Airlines</th><th>Departure</th><th>Duration</th><th>Airrival</th><th>Price</th><th></th></tr>
+                <tr><td>IndiGo<br><span id="small1">6E-2489</span></td> <td>23:30<br><span id="small1">Dehli</span></td> <td>18h 55m<br><span id="small1">Non Stop</span></td> <td>18:15<br><span id="small1">Sydney</span></td> <td>$980</td> <td><input id="button_style" type="submit" value="Book"><br><span id="small2">Flight Details</span></td></tr>
+                <tr><td>IndiGo<br><span id="small1">6E-2489</span></td> <td>23:30<br><span id="small1">Dehli</span></td> <td>18h 55m<br><span id="small1">Non Stop</span></td> <td>18:15<br><span id="small1">Sydney</span></td> <td>$980</td> <td><input id="button_style" type="submit" value="Book"><br><span id="small2">Flight Details</span></td></tr>
+                <tr><td>IndiGo<br><span id="small1">6E-2489</span></td> <td>23:30<br><span id="small1">Dehli</span></td> <td>18h 55m<br><span id="small1">Non Stop</span></td> <td>18:15<br><span id="small1">Sydney</span></td> <td>$980</td> <td><input id="button_style" type="submit" value="Book"><br><span id="small2">Flight Details</span></td></tr>
+                <tr><td>IndiGo<br><span id="small1">6E-2489</span></td> <td>23:30<br><span id="small1">Dehli</span></td> <td>18h 55m<br><span id="small1">Non Stop</span></td> <td>18:15<br><span id="small1">Sydney</span></td> <td>$980</td> <td><input id="button_style" type="submit" value="Book"><br><span id="small2">Flight Details</span></td></tr>
+                <tr><td>IndiGo<br><span id="small1">6E-2489</span></td> <td>23:30<br><span id="small1">Dehli</span></td> <td>18h 55m<br><span id="small1">Non Stop</span></td> <td>18:15<br><span id="small1">Sydney</span></td> <td>$980</td> <td><input id="button_style" type="submit" value="Book"><br><span id="small2">Flight Details</span></td></tr>
+                <tr><td>IndiGo<br><span id="small1">6E-2489</span></td> <td>23:30<br><span id="small1">Dehli</span></td> <td>18h 55m<br><span id="small1">Non Stop</span></td> <td>18:15<br><span id="small1">Sydney</span></td> <td>$980</td> <td><input id="button_style" type="submit" value="Book"><br><span id="small2">Flight Details</span></td></tr>
+            </table>
+        </article>
+    </form>
+</body>
+</html>

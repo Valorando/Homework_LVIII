@@ -1,0 +1,92 @@
+@charset "windows-1251";
+
+body
+{
+    background-image: url(background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+form
+{
+    background-color: rgba(0, 255, 255, 0);
+    color: white;
+    box-shadow: 0 0 10px black;
+    height: 500px;
+    width: 700px;
+    padding: 10px;
+}
+
+section
+{
+    display: inline-flex;
+    vertical-align: top;
+}
+
+#names
+{
+    height: 300px;
+    width: 130px;
+}
+
+#items
+{
+    height: 300px;
+    width: 565px;
+
+}
+
+#submit_section
+{
+    float: right;
+    height: 50px;
+    width: 566px;
+}
+
+#name, #surname, #email, #phone1, #phone2, #phone3
+{
+    height: 20px;
+}
+
+#name, #surname
+{
+    width: 272px;
+    color: rgb(160, 159, 159);
+}
+
+#email
+{
+    width: 556px;
+    color: rgb(160, 159, 159);
+}
+
+#phone1, #phone2
+{
+    width: 150px;
+    color: rgb(160, 159, 159);
+}
+
+#phone3
+{
+    width: 232px;
+    color: rgb(160, 159, 159);
+}
+
+#select1
+{
+    height: 25px;
+    width: 564px;
+}
+
+#submit1 
+{
+    height: 35px;
+    width: 566px;
+    border: 1px solid white;
+    color: white;
+    font-size: 11px;
+    background: rgba(255, 0, 0, 0);
+}
+

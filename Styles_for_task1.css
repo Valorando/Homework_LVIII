@@ -1,0 +1,79 @@
+@charset "windows-1251";
+
+body
+{
+    margin-top: 80px;
+    background-color: rgb(236, 87, 61);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    
+}
+
+#form1
+{
+    background-color: rgb(224, 224, 224);
+    box-shadow: 0 0 10px black; 
+    height: 290px;
+    width: 300px;
+    text-align: center;
+}
+
+#label1
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#label2
+{
+    font-size: 12px;
+    color: rgb(236, 87, 61);
+    font-weight: bold;
+}
+
+#text1, #text2
+{
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(160, 159, 159);
+}
+
+#submit1
+{
+    width: 260px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+
+#submit2, #submit3
+{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
+#submit2
+{
+    background-color: blue;
+    border: none;
+}
+
+#submit3
+{
+    background-color: rgb(5, 134, 177);
+    border: none;
+}
+
+#form2
+{
+    text-align: center;
+    color: white
+}
